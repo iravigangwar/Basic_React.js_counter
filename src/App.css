@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.mainDiv{
+  background-color: rgb(211, 162, 162);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: #b22c2c;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+}
+.Buttons{
+  display: flex;
+  gap: 50px;
+}
+.buttons{
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: #5fe739;: ;
+}
+.spanOut{
+  font-size: 100px;
+}
